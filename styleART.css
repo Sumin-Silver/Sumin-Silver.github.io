@@ -18,6 +18,8 @@ body {
     width: 1000px;
 }
 
+/*tabs code from https://www.youtube.com/watch?v=oLqdy95LZSw*/
+
 .tabs {
     display: flex;
     flex-wrap: wrap;
@@ -32,12 +34,26 @@ body {
 
 .tabs label {
     padding: 25px;
-    background-color: #F2F2F2;
+    background-color: #D4D4D4;
     font-weight: bold;
 }
 
 .tabs .tab {
     width: 100%;
-    padding: 20px;
+    padding: 50px;
+    background-color: #F2F2F2;
+    order: 1;
+    display: none;
+}
+
+.tabs .tab h2 {
+    font-size: 3em;
+}
+
+.tabs input[type="radio"]:checked + label + .tab {
+    display: block;
+}
+
+.tabs input[type="radio"]:checked + label {
     background-color: #F2F2F2;
 }
