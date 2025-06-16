@@ -1,11 +1,11 @@
-.frontImages {
-    margin: auto;
-    align-items: center;
-    width: 50%;
-}
-
 .frontCard {
     margin: auto;   
     text-align: center;
     font-size: 40px;
+}
+
+.frontImages {
+    align-items: center;
+    margin :auto;
+    width: 40%;
 }
