@@ -1,4 +1,11 @@
+.frontImages {
+    margin: auto;
+    align-items: center;
+    width: 50%;
+}
+
 .frontCard {
-    display: flex;
+    margin: auto;   
     text-align: center;
+    font-size: 40px;
 }
