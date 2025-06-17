@@ -2,6 +2,11 @@ html {
      scroll-behavior: smooth;
 }
 
+body {
+    background-color:#D4D4D4;
+    font-family: 'Roboto', sans-serif;
+}
+
 .button {
     position: fixed;
     right: 10px;
@@ -15,4 +20,17 @@ html {
     font-size: 30px;
     justify-content: space-between;
     display: flex;
+}
+
+.intro {
+    text-align: center;
+    font-size: 30px;
+}
+
+.exp {
+    background-color: #494867;
+    width: 1300px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
